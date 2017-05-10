@@ -30,5 +30,8 @@ AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
 # inherit from the proprietary version
 -include vendor/xiaomi/chiron/BoardConfigVendor.mk
