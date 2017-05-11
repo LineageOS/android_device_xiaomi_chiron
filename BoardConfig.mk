@@ -24,5 +24,8 @@ TARGET_KERNEL_CONFIG := chiron_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := chiron
 
+# Audio
+AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
+
 # inherit from the proprietary version
 -include vendor/xiaomi/chiron/BoardConfigVendor.mk
