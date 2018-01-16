@@ -16,17 +16,17 @@
 # Inherit from msm8998-common
 -include device/xiaomi/msm8998-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/sagit
+DEVICE_PATH := device/xiaomi/chiron
 
 # Kernel
-TARGET_KERNEL_CONFIG := sagit_defconfig
+TARGET_KERNEL_CONFIG := chiron_defconfig
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sagit
+TARGET_OTA_ASSERT_DEVICE := chiron
 
 # CM Hardware
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/cmhw
 
 # inherit from the proprietary version
--include vendor/xiaomi/sagit/BoardConfigVendor.mk
+-include vendor/xiaomi/chiron/BoardConfigVendor.mk
