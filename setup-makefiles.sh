@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=sagit
+DEVICE=chiron
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2017
