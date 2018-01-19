@@ -40,19 +40,19 @@ vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so
 vendor/lib/rfsa/adsp/libscveVideoSummary_skel.so
 
 # Audio ACDB
-etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-etc/acdbdata/Forte/Forte_General_cal.acdb
-etc/acdbdata/Forte/Forte_Global_cal.acdb
-etc/acdbdata/Forte/Forte_Handset_cal.acdb
-etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-etc/acdbdata/Forte/Forte_Headset_cal.acdb
-etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_Handset_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_Hdmi_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_Headset_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_Speaker_cal.acdb
+etc/acdbdata/ChironS/Forte_ChironS_workspaceFile.qwsp
 etc/acdbdata/adsp_avs_config.acdb
 
 # Audio firmware
-etc/firmware/tfa98xx_aac.cnt
-etc/firmware/tfa98xx_ssi.cnt
+etc/firmware/tas2559_s_uCDSP.bin
+etc/firmware/tas2559_uCDSP.bin
 
 # Audio libraries
 lib/soundfx/libdirac.so
@@ -186,142 +186,108 @@ vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
 # Camera actuator
-vendor/lib/libactuator_ak7371_s5k3m3_semco.so
-vendor/lib/libactuator_ak7371.so
+vendor/lib/libactuator_chiron_imx386_ak7372_semco.so
 
 # Camera chromatix
-vendor/lib/libchromatix_imx268_4k_preview_3a.so
-vendor/lib/libchromatix_imx268_4k_video_3a.so
-vendor/lib/libchromatix_imx268_common.so
-vendor/lib/libchromatix_imx268_cpp_hfr_120.so
-vendor/lib/libchromatix_imx268_cpp_hfr_60.so
-vendor/lib/libchromatix_imx268_cpp_hfr_90.so
-vendor/lib/libchromatix_imx268_cpp_liveshot.so
-vendor/lib/libchromatix_imx268_cpp_preview.so
-vendor/lib/libchromatix_imx268_cpp_snapshot.so
-vendor/lib/libchromatix_imx268_cpp_video.so
-vendor/lib/libchromatix_imx268_cpp_video_4k.so
-vendor/lib/libchromatix_imx268_default_preview_3a.so
-vendor/lib/libchromatix_imx268_default_video.so
-vendor/lib/libchromatix_imx268_default_video_3a.so
-vendor/lib/libchromatix_imx268_hfr_120.so
-vendor/lib/libchromatix_imx268_hfr_120_3a.so
-vendor/lib/libchromatix_imx268_hfr_60.so
-vendor/lib/libchromatix_imx268_hfr_60_3a.so
-vendor/lib/libchromatix_imx268_hfr_90.so
-vendor/lib/libchromatix_imx268_hfr_90_3a.so
-vendor/lib/libchromatix_imx268_liveshot.so
-vendor/lib/libchromatix_imx268_postproc.so
-vendor/lib/libchromatix_imx268_preview.so
-vendor/lib/libchromatix_imx268_snapshot.so
-vendor/lib/libchromatix_imx268_video_4k.so
-vendor/lib/libchromatix_imx268_zsl_preview_3a.so
-vendor/lib/libchromatix_imx268_zsl_video_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_4K_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_common.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_120.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_60.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_90.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_liveshot.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hht.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_video_hdr.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_default_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_default_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_hdr_snapshot_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_120.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_60.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_90_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_90.so
+vendor/lib/libchromatix_chiron_imx386_semco_liveshot.so
+vendor/lib/libchromatix_chiron_imx386_semco_postproc.so
+vendor/lib/libchromatix_chiron_imx386_semco_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_snapshot_hdr.so
+vendor/lib/libchromatix_chiron_imx386_semco_snapshot.so
+vendor/lib/libchromatix_chiron_imx386_semco_video_hdr.so
+vendor/lib/libchromatix_chiron_imx386_semco_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_zsl_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_zsl_video.so
 
-vendor/lib/libchromatix_imx386_semco_4K_preview.so
-vendor/lib/libchromatix_imx386_semco_4K_video.so
-vendor/lib/libchromatix_imx386_semco_common.so
-vendor/lib/libchromatix_imx386_semco_cpp_hfr_120.so
-vendor/lib/libchromatix_imx386_semco_cpp_hfr_60.so
-vendor/lib/libchromatix_imx386_semco_cpp_hfr_90.so
-vendor/lib/libchromatix_imx386_semco_cpp_liveshot.so
-vendor/lib/libchromatix_imx386_semco_cpp_preview.so
-vendor/lib/libchromatix_imx386_semco_cpp_snapshot.so
-vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hdr.so
-vendor/lib/libchromatix_imx386_semco_cpp_video.so
-vendor/lib/libchromatix_imx386_semco_cpp_video_hdr.so
-vendor/lib/libchromatix_imx386_semco_default_preview.so
-vendor/lib/libchromatix_imx386_semco_default_video.so
-vendor/lib/libchromatix_imx386_semco_hdr_snapshot_3a.so
-vendor/lib/libchromatix_imx386_semco_hdr_video_3a.so
-vendor/lib/libchromatix_imx386_semco_hfr_120.so
-vendor/lib/libchromatix_imx386_semco_hfr_120_3a.so
-vendor/lib/libchromatix_imx386_semco_hfr_60.so
-vendor/lib/libchromatix_imx386_semco_hfr_60_3a.so
-vendor/lib/libchromatix_imx386_semco_hfr_90.so
-vendor/lib/libchromatix_imx386_semco_hfr_90_3a.so
-vendor/lib/libchromatix_imx386_semco_liveshot.so
-vendor/lib/libchromatix_imx386_semco_postproc.so
-vendor/lib/libchromatix_imx386_semco_preview.so
-vendor/lib/libchromatix_imx386_semco_snapshot.so
-vendor/lib/libchromatix_imx386_semco_snapshot_hdr.so
-vendor/lib/libchromatix_imx386_semco_video.so
-vendor/lib/libchromatix_imx386_semco_video_hdr.so
-vendor/lib/libchromatix_imx386_semco_zsl_preview.so
-vendor/lib/libchromatix_imx386_semco_zsl_video.so
+vendor/lib/libchromatix_chiron_ov5675_primax_a3_default_preview.so
+vendor/lib/libchromatix_chiron_ov5675_primax_a3_default_video.so
+vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_primax_a3_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_primax_common.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_ds_chromatix.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_liveshot.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_preview.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_snapshot.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_us_chromatix.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video_full.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video.so
+vendor/lib/libchromatix_chiron_ov5675_primax_default_video.so
+vendor/lib/libchromatix_chiron_ov5675_primax_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_primax_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_primax_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_primax_liveshot.so
+vendor/lib/libchromatix_chiron_ov5675_primax_postproc.so
+vendor/lib/libchromatix_chiron_ov5675_primax_preview.so
+vendor/lib/libchromatix_chiron_ov5675_primax_snapshot.so
+vendor/lib/libchromatix_chiron_ov5675_primax_video_full.so
+vendor/lib/libchromatix_chiron_ov5675_primax_zsl_preview.so
+vendor/lib/libchromatix_chiron_ov5675_primax_zsl_video.so
 
-vendor/lib/libchromatix_s5k3m3_semco_1080p_preview_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_1080p_video_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_4k_preview_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_4k_video_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_common.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_preview.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_snapshot.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_snapshot_downscale.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_snapshot_upscale.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_video.so
-vendor/lib/libchromatix_s5k3m3_semco_cpp_video_4k.so
-vendor/lib/libchromatix_s5k3m3_semco_default_preview_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_default_video.so
-vendor/lib/libchromatix_s5k3m3_semco_default_video_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_120.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_120_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_60.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_60_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_90.so
-vendor/lib/libchromatix_s5k3m3_semco_hfr_90_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_liveshot.so
-vendor/lib/libchromatix_s5k3m3_semco_postproc.so
-vendor/lib/libchromatix_s5k3m3_semco_preview.so
-vendor/lib/libchromatix_s5k3m3_semco_snapshot.so
-vendor/lib/libchromatix_s5k3m3_semco_video_4k.so
-vendor/lib/libchromatix_s5k3m3_semco_zsl_preview_ad5816g.so
-vendor/lib/libchromatix_s5k3m3_semco_zsl_video_ad5816g.so
-
-vendor/lib/libchromatix_sagit_imx268_liteon_4k_preview_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_4k_video_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_common.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_hfr_120.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_hfr_60.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_hfr_90.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_liveshot.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_preview.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_snapshot.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_video.so
-vendor/lib/libchromatix_sagit_imx268_liteon_cpp_video_4k.so
-vendor/lib/libchromatix_sagit_imx268_liteon_default_preview_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_default_video.so
-vendor/lib/libchromatix_sagit_imx268_liteon_default_video_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_120.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_120_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_60.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_60_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_90.so
-vendor/lib/libchromatix_sagit_imx268_liteon_hfr_90_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_liveshot.so
-vendor/lib/libchromatix_sagit_imx268_liteon_postproc.so
-vendor/lib/libchromatix_sagit_imx268_liteon_preview.so
-vendor/lib/libchromatix_sagit_imx268_liteon_snapshot.so
-vendor/lib/libchromatix_sagit_imx268_liteon_video_4k.so
-vendor/lib/libchromatix_sagit_imx268_liteon_zsl_preview_3a.so
-vendor/lib/libchromatix_sagit_imx268_liteon_zsl_video_3a.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_a3_default_preview.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_a3_default_video.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_a3_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_common.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_ds_chromatix.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_liveshot.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_preview.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_snapshot.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_us_chromatix.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video_full.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_default_video.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_120.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_60.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_90.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_liveshot.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_postproc.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_preview.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_snapshot.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_video_full.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so
 
 # Camera configs
 etc/camera/camera_config.xml
-etc/camera/imx386_semco_chromatix.xml
-etc/camera/s5k3m3_semco_chromatix.xml
-etc/camera/imx268_chromatix.xml
-etc/camera/sagit_imx268_liteon_chromatix.xml
+etc/camera/chiron_imx386_semco_chromatix.xml
+etc/camera/chiron_ov5675_primax_chromatix.xml
+etc/camera/chiron_ov5675_qtech_chromatix.xml
 
 # Camera eeproms
-vendor/lib/libmmcamera_sagit_imx268_liteon_eeprom.so
-vendor/lib/libmmcamera_sagit_imx268_primax_eeprom.so
-vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so
-vendor/lib/libmmcamera_sagit_s5k3m3_semco_eeprom.so
+vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so
+vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so
+vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so
 vendor/lib/libSonyIMX386PdafLibrary.so
 
 # Camera firmware
@@ -394,10 +360,9 @@ vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libois_bu63164.so
 
 # Camera sensors
-vendor/lib/libmmcamera_imx268.so
-vendor/lib/libmmcamera_imx386_semco.so
-vendor/lib/libmmcamera_s5k3m3_semco.so
-vendor/lib/libmmcamera_sagit_imx268_liteon.so
+vendor/lib/libmmcamera_chiron_imx386_semco.so
+vendor/lib/libmmcamera_chiron_ov5675_primax.so
+vendor/lib/libmmcamera_chiron_ov5675_qtech.so
 
 # Charger
 bin/hvdcp_opti
@@ -428,15 +393,11 @@ vendor/lib/libwms.so
 vendor/lib/libwqe.so
 vendor/lib/libxml.so
 
-# Consumerir
-lib64/hw/consumerir.default.so
-
 # Display calibration
 -vendor/app/colorservice/colorservice.apk
 -vendor/lib64/libsdm-disp-apis.so
 etc/permissions/com.qti.snapdragon.sdk.display.xml
-etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
-etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml
 framework/com.qti.snapdragon.sdk.display.jar
 vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libsdm-color.so
