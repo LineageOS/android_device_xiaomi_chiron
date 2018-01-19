@@ -24,9 +24,5 @@ TARGET_KERNEL_CONFIG := chiron_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := chiron
 
-# CM Hardware
-BOARD_HARDWARE_CLASS += \
-    $(DEVICE_PATH)/cmhw
-
 # inherit from the proprietary version
 -include vendor/xiaomi/chiron/BoardConfigVendor.mk
