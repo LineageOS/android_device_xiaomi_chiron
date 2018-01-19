@@ -126,6 +126,10 @@
     <!-- Period of time in which to consider light samples in milliseconds. -->
     <integer name="config_autoBrightnessAmbientLightHorizon">5000</integer>
 
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+                  autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
+
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
