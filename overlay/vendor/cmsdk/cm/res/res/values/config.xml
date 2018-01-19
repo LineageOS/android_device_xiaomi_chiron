@@ -20,9 +20,9 @@
          app, they can be remapped here. The format is
          "oldname:newname", one per entry. -->
     <string-array name="config_displayModeMappings" translatable="false">
-        <item>Default:standard</item>
-        <item>Warm1:reading</item>
-        <item>Cold1:dynamic</item>
+        <item>default4-default:standard</item>
+        <item>warm:reading</item>
+        <item>cool:dynamic</item>
     </string-array>
 
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
