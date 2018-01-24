@@ -707,12 +707,16 @@ vendor/qcril.db
 
 # Sensors
 bin/sensors.qcom
+etc/elliptic_sensor.xml
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
+lib64/libnotifyaudiohal.so
+lib64/libultrasound.so
 vendor/lib64/hw/activity_recognition.msm8998.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor_user_cal.so
+vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 vendor/lib/hw/activity_recognition.msm8998.so
 vendor/lib/libsensor1.so
