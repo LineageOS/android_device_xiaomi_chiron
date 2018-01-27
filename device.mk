@@ -23,10 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Inherit from msm8998-common
 $(call inherit-product, device/xiaomi/msm8998-common/msm8998.mk)
 
-# Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
