@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4962ded9_89545fb4",
+        "filename": "overlay/packages/apps/Settings/res/values/dimens.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-01-27T20:05:09Z",
+      "side": 0,
+      "message": "We still need to overlay this, default sensor location is too high",
+      "revId": "5c4d21a2b359ecc31ef4f0eccbb6548098d9cc8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
