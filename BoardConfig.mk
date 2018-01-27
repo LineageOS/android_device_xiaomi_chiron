@@ -27,5 +27,8 @@ TARGET_OTA_ASSERT_DEVICE := chiron
 # Audio
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # inherit from the proprietary version
 -include vendor/xiaomi/chiron/BoardConfigVendor.mk

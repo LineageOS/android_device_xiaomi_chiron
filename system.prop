@@ -1,0 +1,3 @@
+# Sensors
+ro.qti.sensors.noneui=true
+ro.xiaomi.sar_fusion=true
