@@ -23,5 +23,6 @@
         <item>default4-default:standard</item>
         <item>warm:reading</item>
         <item>cool:dynamic</item>
+        <item>37sRGB-N:srgb</item>
     </string-array>
 </resources>
