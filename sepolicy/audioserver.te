@@ -1,1 +1,2 @@
+r_dir_file(audioserver, persist_amp_cal_file)
 r_dir_file(audioserver, persist_usf_cal_file)

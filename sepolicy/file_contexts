@@ -1,2 +1,3 @@
 # Persist files
+/persist/audio/tas2559_cal.bin        u:object_r:persist_amp_cal_file:s0
 /persist/audio/us_cal                 u:object_r:persist_usf_cal_file:s0
