@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit from msm8998-common
--include device/xiaomi/msm8998-common/BoardConfigCommon.mk
+include device/xiaomi/msm8998-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/chiron
 
@@ -33,5 +33,5 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
-# inherit from the proprietary version
--include vendor/xiaomi/chiron/BoardConfigVendor.mk
+# Inherit from proprietary files
+include vendor/xiaomi/chiron/BoardConfigVendor.mk
