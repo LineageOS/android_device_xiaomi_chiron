@@ -22,10 +22,8 @@ $(call inherit-product, device/xiaomi/msm8998-common/msm8998.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:/system/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
-
-PRODUCT_COPY_FILES += \
-    $(TOPDIR)frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:/system/etc/audio_policy_volumes.xml
 
 # Input
 PRODUCT_COPY_FILES += \
