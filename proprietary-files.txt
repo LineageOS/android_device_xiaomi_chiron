@@ -1,21 +1,21 @@
 # Audio ACDB
-etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_Handset_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_Hdmi_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_Headset_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_Speaker_cal.acdb
-etc/acdbdata/ChironS/Forte_ChironS_workspaceFile.qwsp
-etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-etc/acdbdata/Forte/Forte_General_cal.acdb
-etc/acdbdata/Forte/Forte_Global_cal.acdb
-etc/acdbdata/Forte/Forte_Handset_cal.acdb
-etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-etc/acdbdata/Forte/Forte_Headset_cal.acdb
-etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-etc/acdbdata/Forte/Forte_workspaceFile.qwsp
-etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Handset_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Hdmi_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Headset_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_Speaker_cal.acdb
+vendor/etc/acdbdata/ChironS/Forte_ChironS_workspaceFile.qwsp
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio firmware
 etc/firmware/tas2559_s_uCDSP.bin
@@ -136,11 +136,11 @@ lib64/hw/fingerprint.fpc.so:lib64/hw/fingerprint.fpc.msm8998.so
 
 # Sensors
 etc/elliptic_sensor.xml
-etc/sensors/hals.conf
-etc/sensors/sensor_def_qcomdev.conf
+vendor/etc/sensors/hals.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf
 lib64/libnotifyaudiohal.so
 lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 
 # Thermal
-etc/thermal-engine-8998.conf
+vendor/etc/thermal-engine-8998.conf
