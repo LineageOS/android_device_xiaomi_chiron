@@ -601,6 +601,7 @@
     <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" />
 
     <ctl name="QUAT_MI2S_RX Channels" value="Two" />
+    <ctl name="QUAT_MI2S_TX Channels" value="Two" />
 
     <!-- smart pa default config -->
     <ctl name="Configuration" value="4" />
