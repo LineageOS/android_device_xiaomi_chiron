@@ -1,0 +1,3 @@
+allow servicemanager hal_sensors_default:dir search;
+allow servicemanager hal_sensors_default:file { open read };
+allow servicemanager hal_sensors_default:process getattr;

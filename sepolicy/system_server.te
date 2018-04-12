@@ -1,0 +1,2 @@
+allow system_server audioserver:file write;
+allow system_server hal_audio_default:file write;
