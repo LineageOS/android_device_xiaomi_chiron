@@ -1,0 +1,4 @@
+allow hal_sensors_default audioserver:binder { call transfer };
+allow hal_sensors_default audioserver_service:service_manager find;
+
+binder_use(hal_sensors_default)
