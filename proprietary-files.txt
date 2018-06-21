@@ -113,10 +113,10 @@ vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_preview.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_zsl_video.so
 
 # Camera configs
-etc/camera/camera_config.xml
-etc/camera/chiron_imx386_semco_chromatix.xml
-etc/camera/chiron_ov5675_primax_chromatix.xml
-etc/camera/chiron_ov5675_qtech_chromatix.xml
+etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
+etc/camera/chiron_imx386_semco_chromatix.xml:vendor/etc/camera/chiron_imx386_semco_chromatix.xml
+etc/camera/chiron_ov5675_primax_chromatix.xml:vendor/etc/camera/chiron_ov5675_primax_chromatix.xml
+etc/camera/chiron_ov5675_qtech_chromatix.xml:vendor/etc/camera/chiron_ov5675_qtech_chromatix.xml
 
 # Camera eeproms
 vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so
