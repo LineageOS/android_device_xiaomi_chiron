@@ -21,6 +21,9 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 etc/firmware/tas2559_s_uCDSP.bin:vendor/firmware/tas2559_s_uCDSP.bin
 etc/firmware/tas2559_uCDSP.bin:vendor/firmware/tas2559_uCDSP.bin
 
+# Camera
+etc/dualcamera.png:vendor/etc/dualcamera.png
+
 # Camera actuator
 vendor/lib/libactuator_chiron_imx386_ak7372_semco.so
 
