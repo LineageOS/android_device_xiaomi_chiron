@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# AAPT
-PRODUCT_AAPT_PREF_CONFIG := 400dpi
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
