@@ -15,23 +15,24 @@
 # limitations under the License.
 #
 
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib64/sensors.elliptic.so)
+        sed -i "s|/etc/elliptic_sensor.xml|/vendor/etc/elliptic.xml|g" "${2}"
+        ;;
+	esac
+}
+
+# If we're being sourced by the common script that we called,
+# stop right here. No need to go down the rabbit hole.
+if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
+	return
+fi
+
 set -e
 
 export DEVICE=chiron
 export DEVICE_COMMON=msm8998-common
 export VENDOR=xiaomi
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
-
-MY_DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
-
-LINEAGE_ROOT="$MY_DIR"/../../..
-
-DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
-
-#
-# Load elliptic config from vendor
-#
-ELLIPTIC_SENSOR_MODULE="$DEVICE_BLOB_ROOT"/vendor/lib64/sensors.elliptic.so
-sed -i "s|/etc/elliptic_sensor.xml|/vendor/etc/elliptic.xml|g" "$ELLIPTIC_SENSOR_MODULE"
+source "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
