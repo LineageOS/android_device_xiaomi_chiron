@@ -5,4 +5,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.enable_default_color_mode=0
+    vendor.display.enable_default_color_mode=0 \
+    ro.sf.lcd_density=440
