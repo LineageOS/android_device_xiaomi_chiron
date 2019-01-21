@@ -21,6 +21,10 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 etc/firmware/tas2559_s_uCDSP.bin:vendor/firmware/tas2559_s_uCDSP.bin
 etc/firmware/tas2559_uCDSP.bin:vendor/firmware/tas2559_uCDSP.bin
 
+# Bluetooth aptX - from taimen PQ1A.190105.004
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+
 # Camera
 etc/dualcamera.png:vendor/etc/dualcamera.png
 
