@@ -7,3 +7,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
     vendor.display.disable_avr=1
+    vendor.display.enable_default_color_mode=0
