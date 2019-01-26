@@ -50,8 +50,8 @@
     <ctl name="LINEOUT2 Volume" value="13" />
     <ctl name="LINEOUT3 Volume" value="13" />
     <ctl name="LINEOUT4 Volume" value="13" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
+    <ctl name="HPHL Volume" value="14" />
+    <ctl name="HPHR Volume" value="14" />
     <ctl name="RX0 Digital Volume" value="84" />
     <ctl name="RX1 Digital Volume" value="84" />
     <ctl name="RX2 Digital Volume" value="84" />
@@ -76,8 +76,8 @@
     <ctl name="DEC6 Volume" value="84" />
     <ctl name="DEC7 Volume" value="84" />
     <ctl name="DEC8 Volume" value="84" />
-    <ctl name="COMP1 Switch" value="1" />
-    <ctl name="COMP2 Switch" value="1" />
+    <ctl name="COMP1 Switch" value="0" />
+    <ctl name="COMP2 Switch" value="0" />
     <ctl name="COMP7 Switch" value="0" />
     <ctl name="COMP8 Switch" value="0" />
     <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
@@ -2153,7 +2153,7 @@
         <ctl name="RX INT6_2 MUX" value="RX7" />
         <ctl name="LINEOUT4 Volume" value="16" />
         <ctl name="Ultrasound Power" value="On" />
-        <ctl name="Ultrasound Mode" value="420" />
+        <ctl name="Ultrasound Mode" value="500" />
     </path>
 
     <path name="ultrasound-mic">
@@ -2577,6 +2577,8 @@
     <path name="voice-headphones">
         <path name="headphones" />
         <ctl name="RX HPH Mode" value="CLS_H_LP" />
+        <ctl name="HPHL Volume" value="20" />
+        <ctl name="HPHR Volume" value="20" />
     </path>
 
     <path name="voice-line">
@@ -2591,6 +2593,8 @@
     <path name="speaker-and-headphones">
         <path name="headphones" />
         <path name="speaker" />
+        <ctl name="HPHL Volume" value="15" />
+        <ctl name="HPHR Volume" value="15" />
     </path>
 
     <path name="speaker-and-line">
