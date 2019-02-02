@@ -132,7 +132,7 @@ vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so
 
 # Camera sensors
 vendor/lib/libmmcamera_chiron_imx386_semco.so
-vendor/lib/libmmcamera_chiron_ov5675_primax.so
+vendor/lib/libmmcamera_chiron_ov5675_primax.so|6744c2becd7f6267dd34074582eb11b771dc5e25
 vendor/lib/libmmcamera_chiron_ov5675_qtech.so
 
 # Display calibration
