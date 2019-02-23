@@ -1,5 +1,5 @@
 # Amplifier & ultrasound
-/persist/audio(/.*)?                                          u:object_r:audio_persist_file:s0
+/(mnt/vendor)/persist/audio(/.*)?                             u:object_r:audio_persist_file:s0
 
 # Ultrasound
 /dev/elliptic(.*)?                                            u:object_r:sound_device:s0
