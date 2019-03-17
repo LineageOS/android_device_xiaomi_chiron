@@ -156,3 +156,4 @@ vendor/lib64/sensors.elliptic.so
 
 # Thermal
 vendor/etc/thermal-engine-8998.conf
+vendor/etc/thermal-engine-8998-high.conf
