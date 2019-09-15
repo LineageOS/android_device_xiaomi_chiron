@@ -1,3 +1,7 @@
+# Build fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.noneui=true \
