@@ -17,6 +17,9 @@
 
 function blob_fixup() {
     case "${1}" in
+    vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so)
+        sed -i 's|/data/misc/camera/camera_lsc_caldata.txt|/data/vendor/camera/camera_lsc_calib.txt|g' "${2}"
+        ;;
     vendor/lib64/com.fingerprints.extension@1.0.so)
         patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
