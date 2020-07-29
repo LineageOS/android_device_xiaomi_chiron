@@ -1,7 +1,6 @@
 runtime_resource_overlay {
     name: "ChironWifiOverlay",
     theme: "ChironWifiOverlay",
-    certificate: "platform",
     sdk_version: "current",
     product_specific: true
 }
