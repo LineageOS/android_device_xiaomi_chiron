@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Xiaomi Mi MIX 2
+
 # Display
 vendor.display.disable_avr=1
 
