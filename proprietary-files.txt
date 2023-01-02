@@ -36,28 +36,28 @@ vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_60.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_hfr_90.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_liveshot.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_preview.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot_hht.so
-vendor/lib/libchromatix_chiron_imx386_semco_cpp_snapshot.so
-vendor/lib/libchromatix_chiron_imx386_semco_cpp_video_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_cpp_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_cpp_video_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_default_preview.so
 vendor/lib/libchromatix_chiron_imx386_semco_default_video.so
 vendor/lib/libchromatix_chiron_imx386_semco_hdr_snapshot_3a.so
 vendor/lib/libchromatix_chiron_imx386_semco_hdr_video_3a.so
-vendor/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so
 vendor/lib/libchromatix_chiron_imx386_semco_hfr_120.so
-vendor/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_120_3a.so
 vendor/lib/libchromatix_chiron_imx386_semco_hfr_60.so
-vendor/lib/libchromatix_chiron_imx386_semco_hfr_90_3a.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_60_3a.so
 vendor/lib/libchromatix_chiron_imx386_semco_hfr_90.so
+vendor/lib/libchromatix_chiron_imx386_semco_hfr_90_3a.so
 vendor/lib/libchromatix_chiron_imx386_semco_liveshot.so
 vendor/lib/libchromatix_chiron_imx386_semco_postproc.so
 vendor/lib/libchromatix_chiron_imx386_semco_preview.so
-vendor/lib/libchromatix_chiron_imx386_semco_snapshot_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_snapshot.so
-vendor/lib/libchromatix_chiron_imx386_semco_video_hdr.so
+vendor/lib/libchromatix_chiron_imx386_semco_snapshot_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_video.so
+vendor/lib/libchromatix_chiron_imx386_semco_video_hdr.so
 vendor/lib/libchromatix_chiron_imx386_semco_zsl_preview.so
 vendor/lib/libchromatix_chiron_imx386_semco_zsl_video.so
 vendor/lib/libchromatix_chiron_ov5675_primax_a3_default_preview.so
@@ -74,8 +74,8 @@ vendor/lib/libchromatix_chiron_ov5675_primax_cpp_liveshot.so
 vendor/lib/libchromatix_chiron_ov5675_primax_cpp_preview.so
 vendor/lib/libchromatix_chiron_ov5675_primax_cpp_snapshot.so
 vendor/lib/libchromatix_chiron_ov5675_primax_cpp_us_chromatix.so
-vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video_full.so
 vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video.so
+vendor/lib/libchromatix_chiron_ov5675_primax_cpp_video_full.so
 vendor/lib/libchromatix_chiron_ov5675_primax_default_video.so
 vendor/lib/libchromatix_chiron_ov5675_primax_hfr_120.so
 vendor/lib/libchromatix_chiron_ov5675_primax_hfr_60.so
@@ -101,8 +101,8 @@ vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_liveshot.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_preview.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_snapshot.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_us_chromatix.so
-vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video_full.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video.so
+vendor/lib/libchromatix_chiron_ov5675_qtech_cpp_video_full.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_default_video.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_120.so
 vendor/lib/libchromatix_chiron_ov5675_qtech_hfr_60.so
@@ -135,21 +135,21 @@ vendor/lib/libmmcamera_chiron_ov5675_qtech.so
 etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml
 
 # Fingerprint
-vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.msm8998.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.msm8998.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 # Sensors
 etc/elliptic_sensor.xml:vendor/etc/elliptic.xml
-vendor/etc/sensors/hals.conf
-vendor/etc/sensors/sensor_def_qcomdev.conf
 lib64/libnotifyaudiohal.so:vendor/lib64/libnotifyaudiohal.so
 lib64/libultrasound.so:vendor/lib64/libultrasound.so
+vendor/etc/sensors/hals.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib64/sensors.elliptic.so
 
 # Thermal
-vendor/etc/thermal-engine-8998.conf
 vendor/etc/thermal-engine-8998-high.conf
+vendor/etc/thermal-engine-8998.conf
