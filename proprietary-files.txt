@@ -144,8 +144,6 @@ vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 # Sensors
 etc/elliptic_sensor.xml:vendor/etc/elliptic.xml
-lib64/libnotifyaudiohal.so:vendor/lib64/libnotifyaudiohal.so
-lib64/libultrasound.so:vendor/lib64/libultrasound.so
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib64/sensors.elliptic.so

@@ -17,9 +17,6 @@ function blob_fixup() {
         vendor/lib64/libgf_hal.so)
             "${PATCHELF}" --remove-needed "libpowermanager.so" "${2}"
             ;;
-        vendor/lib64/libultrasound.so)
-            "${PATCHELF}" --remove-needed "libmedia.so" "${2}"
-            ;;
         vendor/lib64/sensors.elliptic.so)
             sed -i "s|/etc/elliptic_sensor.xml|/vendor/etc/elliptic.xml|g" "${2}"
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
