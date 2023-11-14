@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b53a93a_62b2c65c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32181
+      },
+      "writtenOn": "2023-11-14T12:05:55Z",
+      "side": 1,
+      "message": "It looks better.\nhttps://smms.app/image/eIY1B53lSJ72aVZ\nhttps://smms.app/image/7gmS2d5PpzcMtQn",
+      "revId": "c398cdc9a6061d9ea8ce6443a5eec7bd204e1011",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
