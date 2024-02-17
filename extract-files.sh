@@ -11,20 +11,12 @@ function blob_fixup() {
         vendor/lib/libmmcamera_chiron_imx386_semco_eeprom.so)
             sed -i 's|/data/misc/camera/camera_lsc_caldata.txt|/data/vendor/camera/camera_lsc_calib.txt|g' "${2}"
             ;;
-        vendor/lib64/com.fingerprints.extension@1.0.so)
-            "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
-            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
-            ;;
         vendor/lib64/libgf_hal.so)
             "${PATCHELF}" --remove-needed "libpowermanager.so" "${2}"
             ;;
         vendor/lib64/sensors.elliptic.so)
             sed -i "s|/etc/elliptic_sensor.xml|/vendor/etc/elliptic.xml|g" "${2}"
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
-            ;;
-        vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so)
-            "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
-            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
     esac
 }
