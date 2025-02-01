@@ -1,5 +1,8 @@
 # Display
 vendor.display.disable_avr=1
 
+# Fingerprint
+ persist.vendor.fingerprint.type=rear
+ 
 # Sensors
 ro.xiaomi.sar_fusion=true
