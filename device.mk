@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnotifyaudiohal:64
 
+$(call soong_config_set,qtiaudio,feature_elliptic_ultrasound,true)
+
 # Wifi
 PRODUCT_PACKAGES += \
     ChironWifiOverlay
