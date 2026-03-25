@@ -3,3 +3,8 @@ vendor.display.disable_avr=1
 
 # Sensors
 ro.xiaomi.sar_fusion=true
+
+# Audio
+aaudio.hw_burst_min_usec=40000
+aaudio.mmap_policy=1
+vendor.audio_hal.period_size=960
